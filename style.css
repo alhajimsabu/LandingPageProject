@@ -83,13 +83,14 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 24px;
 }
 
 .random-title {
     font-size: 36px;
     color: #1f2930;
     font-weight: bolder;
-    margin: 24px;
+    margin: 32px;
 }
 
 .random-info {
@@ -103,6 +104,10 @@ button {
     width: 200px;
     margin: 0px;
     padding: 0px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+    margin-bottom: 24px;
 }
 
 img {
