@@ -78,3 +78,39 @@ button {
     width: 500px;
     margin-left: 16px;
 }
+
+.random-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.random-title {
+    font-size: 36px;
+    color: #1f2930;
+    font-weight: bolder;
+    margin: 24px;
+}
+
+.random-info {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.text {
+    color: grey;
+    font-size: 18px;
+}
